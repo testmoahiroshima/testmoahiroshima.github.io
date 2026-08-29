@@ -1387,7 +1387,7 @@ function googleTranslateElementInit() {
 <!-- ===== TOP PAGE ===== -->
 <section id="home" class="page-section active">
   <div class="hero">
-    <img src="reception_1.jpg" alt="広島療院 1階総合受付">
+    <img src="entrance.jpg" alt="広島療院 正面玄関" style="object-position:center 6%;">
     <div class="hero-overlay"></div>
     <div class="hero-text">
       <p class="catch">生きる力をあなたに</p>
@@ -1491,6 +1491,36 @@ function googleTranslateElementInit() {
     </div>
 
 
+    <!-- 館内のご案内(写真) -->
+    <div class="section-heading" style="margin:56px 0 28px;">
+      <span class="en-label">Our Facility</span>
+      <h2>広島療院のご案内</h2>
+      <p style="font-size:14px;color:var(--text-light);margin-top:8px;letter-spacing:0.05em;">— はじめてお越しになる方へ、館内の様子をご紹介します —</p>
+    </div>
+
+    <div style="max-width:1000px;margin:0 auto 24px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+      <figure style="margin:0;background:var(--warm-white);border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 4px 16px var(--shadow);">
+        <img src="building_exterior.jpg" alt="広島療院 外観（全景）" style="display:block;width:100%;aspect-ratio:3/4;object-fit:cover;">
+        <figcaption style="padding:10px 8px;font-size:13px;text-align:center;color:var(--text-light);font-family:'Noto Serif JP',serif;letter-spacing:0.08em;">外観（全景）<br><span style="font-size:11px;color:var(--text-muted);font-family:'Noto Sans JP',sans-serif;">住吉町・平和大通り近く</span></figcaption>
+      </figure>
+      <figure style="margin:0;background:var(--warm-white);border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 4px 16px var(--shadow);">
+        <img src="entrance.jpg" alt="広島療院 正面玄関" style="display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 20%;">
+        <figcaption style="padding:10px 8px;font-size:13px;text-align:center;color:var(--text-light);font-family:'Noto Serif JP',serif;letter-spacing:0.08em;">正面玄関<br><span style="font-size:11px;color:var(--text-muted);font-family:'Noto Sans JP',sans-serif;">こちらからお入りください</span></figcaption>
+      </figure>
+      <figure style="margin:0;background:var(--warm-white);border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 4px 16px var(--shadow);">
+        <img src="reception_1.jpg" alt="広島療院 1階 総合受付カウンター" style="display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 40%;">
+        <figcaption style="padding:10px 8px;font-size:13px;text-align:center;color:var(--text-light);font-family:'Noto Serif JP',serif;letter-spacing:0.08em;">1階 総合受付<br><span style="font-size:11px;color:var(--text-muted);font-family:'Noto Sans JP',sans-serif;">ご予約・お支払いはこちらで</span></figcaption>
+      </figure>
+      <figure style="margin:0;background:var(--warm-white);border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:0 4px 16px var(--shadow);">
+        <img src="reception_2.jpg" alt="1階受付でご案内中のコーヒーテイクアウト" style="display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 45%;">
+        <figcaption style="padding:10px 8px;font-size:13px;text-align:center;color:var(--text-light);font-family:'Noto Serif JP',serif;letter-spacing:0.08em;">受付でのご案内<br><span style="font-size:11px;color:var(--text-muted);font-family:'Noto Sans JP',sans-serif;">コーヒーのテイクアウトも</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="notice-box" style="max-width:1000px;margin:0 auto 8px;font-size:13px;text-align:center;">
+      ご来館の際は、まず <strong>1階 総合受付</strong> へお声かけください。スタッフが各フロアへご案内いたします。
+    </div>
+
     <div class="section-heading" style="margin:56px 0 32px;">
       <span class="en-label">Calendar — September 2026</span>
       <h2>施設カレンダー</h2>
@@ -1574,6 +1604,19 @@ function googleTranslateElementInit() {
         <button onclick="showTab('bbs', null)" style="background:var(--sage);color:white;border:none;padding:12px 32px;border-radius:8px;font-family:'Noto Sans JP',sans-serif;font-size:14px;cursor:pointer;letter-spacing:0.1em;box-shadow:0 4px 14px var(--shadow);">
           すべてのお知らせを見る →
         </button>
+      </div>
+    </div>
+
+    <!-- 公式SNS -->
+    <div style="max-width:920px;margin:36px auto 0;background:var(--warm-white);border-radius:16px;padding:28px 32px;border:1px solid var(--border);box-shadow:0 4px 18px var(--shadow);text-align:center;">
+      <p style="font-family:'Noto Serif JP',serif;font-size:17px;color:var(--sage-dark);margin-bottom:8px;letter-spacing:0.1em;">公式SNSで最新情報を発信しています</p>
+      <p style="font-size:13px;color:var(--text-light);margin-bottom:18px;line-height:1.8;">館内の催しや季節の設え、日替わりメニュー、旬の入荷情報などをお届けしています。</p>
+      <div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;">
+        <a href="https://www.instagram.com/hiroshima_ryouin/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);color:white;padding:11px 22px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:0.05em;box-shadow:0 3px 10px rgba(221,42,123,0.25);">📷 広島療院 公式</a>
+        <a href="https://www.instagram.com/kanna_restaurant_/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);color:white;padding:11px 22px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:0.05em;box-shadow:0 3px 10px rgba(221,42,123,0.25);">📷 レストラン かんな</a>
+        <a href="https://www.instagram.com/greenmarket.hiroshima/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);color:white;padding:11px 22px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:0.05em;box-shadow:0 3px 10px rgba(221,42,123,0.25);">📷 グリーンマーケット広島店</a>
+        <a href="https://www.instagram.com/zuisyoudo0405/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);color:white;padding:11px 22px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:0.05em;box-shadow:0 3px 10px rgba(221,42,123,0.25);">📷 瑞祥堂治療院</a>
+        <a href="https://www.facebook.com/people/%E7%91%9E%E7%A5%A5%E5%A0%82%E6%B2%BB%E7%99%82%E9%99%A2/100051837514206/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:#1877F2;color:white;padding:11px 22px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:0.05em;box-shadow:0 3px 10px rgba(24,119,242,0.25);">📘 瑞祥堂治療院</a>
       </div>
     </div>
 
@@ -1767,7 +1810,7 @@ function googleTranslateElementInit() {
 <!-- ===== はじめての方へ ===== -->
 <section id="firsttime" class="page-section">
   <div class="page-hero">
-    <img src="entrance.jpg" alt="はじめての方へ — 広島療院 玄関">
+    <img src="reception_main.jpg" alt="はじめての方へ — 広島療院 1階総合受付">
     <div class="page-hero-overlay"></div>
     <div class="page-hero-title">
       <p class="en">First Time Visitors</p>
@@ -2267,6 +2310,13 @@ function googleTranslateElementInit() {
         <img src="art_tearoom_entrance.jpg" alt="茶室入口" style="width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:12px;box-shadow:0 4px 16px var(--shadow);">
         <figcaption style="margin-top:8px;font-size:12px;color:var(--text-muted);text-align:center;">茶室入口</figcaption>
       </figure>
+    </div>
+    <div style="max-width:680px;margin:32px auto 0;background:var(--warm-white);border-radius:14px;padding:24px 28px;border:1px solid var(--border);box-shadow:0 3px 12px var(--shadow);text-align:center;">
+      <p style="font-family:'Noto Serif JP',serif;font-size:15px;color:var(--sage-dark);margin-bottom:16px;letter-spacing:0.1em;">広島療院の公式Instagramで最新情報を発信中</p>
+      <div style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;">
+        <a href="https://www.instagram.com/hiroshima_ryouin/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);color:white;padding:11px 22px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:0.05em;box-shadow:0 3px 10px rgba(221,42,123,0.25);">📷 広島療院 公式Instagram</a>
+      </div>
+      <p style="font-size:12px;color:var(--text-muted);margin-top:14px;letter-spacing:0.05em;">美術文化ルームの季節の設えや、館内の最新情報をお届けしています</p>
     </div>
   </div>
 </section>
@@ -3036,6 +3086,13 @@ function googleTranslateElementInit() {
       ※ 数量に限りがございますので、売り切れの際はご容赦ください。<br>
       ※ 料金はすべて税込みです。
     </div>
+    <div style="max-width:680px;margin:32px auto 0;background:var(--warm-white);border-radius:14px;padding:24px 28px;border:1px solid var(--border);box-shadow:0 3px 12px var(--shadow);text-align:center;">
+      <p style="font-family:'Noto Serif JP',serif;font-size:15px;color:var(--sage-dark);margin-bottom:16px;letter-spacing:0.1em;">SNSで日替わりメニューを発信中</p>
+      <div style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;">
+        <a href="https://www.instagram.com/kanna_restaurant_/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);color:white;padding:11px 22px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:0.05em;box-shadow:0 3px 10px rgba(221,42,123,0.25);">📷 自然食レストラン かんな（Instagram）</a>
+      </div>
+      <p style="font-size:12px;color:var(--text-muted);margin-top:14px;letter-spacing:0.05em;">日替わりランチや季節のお料理を随時ご紹介しています</p>
+    </div>
   </div>
 </section>
 
@@ -3124,6 +3181,13 @@ function googleTranslateElementInit() {
           <strong style="color:var(--sage-dark);">会員特典</strong>：毎月ポイントアップやクーポンを発行　／　<strong style="color:var(--sage-dark);">お支払い</strong>：クレジットカード、代金引換
         </p>
       </div>
+    </div>
+    <div style="max-width:680px;margin:32px auto 0;background:var(--warm-white);border-radius:14px;padding:24px 28px;border:1px solid var(--border);box-shadow:0 3px 12px var(--shadow);text-align:center;">
+      <p style="font-family:'Noto Serif JP',serif;font-size:15px;color:var(--sage-dark);margin-bottom:16px;letter-spacing:0.1em;">SNSで入荷情報をお届けしています</p>
+      <div style="display:flex;justify-content:center;gap:14px;flex-wrap:wrap;">
+        <a href="https://www.instagram.com/greenmarket.hiroshima/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(45deg, #F58529, #DD2A7B, #8134AF);color:white;padding:11px 22px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:0.05em;box-shadow:0 3px 10px rgba(221,42,123,0.25);">📷 グリーンマーケット広島店（Instagram）</a>
+      </div>
+      <p style="font-size:12px;color:var(--text-muted);margin-top:14px;letter-spacing:0.05em;">旬の野菜やおすすめ商品の入荷情報を発信中</p>
     </div>
   </div>
 </section>
@@ -3535,9 +3599,11 @@ function googleTranslateElementInit() {
       受付：月〜土 10:00〜16:00<br>
       <a href="mailto:hirosimaryoin@moa-inter.or.jp" style="color:rgba(255,255,255,0.7);font-size:12px;">hirosimaryoin@moa-inter.or.jp</a></p>
       <div class="sns-links">
-        <a class="sns-btn" href="#" onclick="alert('SNSアカウントのURLを設定してください')">📘 Facebook</a>
-        <a class="sns-btn" href="#" onclick="alert('SNSアカウントのURLを設定してください')">📷 Instagram</a>
-        <a class="sns-btn" href="#" onclick="alert('SNSアカウントのURLを設定してください')">💚 LINE公式</a>
+        <a class="sns-btn" href="https://www.instagram.com/hiroshima_ryouin/" target="_blank" rel="noopener">📷 広島療院 公式</a>
+        <a class="sns-btn" href="https://www.instagram.com/kanna_restaurant_/" target="_blank" rel="noopener">📷 レストラン かんな</a>
+        <a class="sns-btn" href="https://www.instagram.com/greenmarket.hiroshima/" target="_blank" rel="noopener">📷 グリーンマーケット</a>
+        <a class="sns-btn" href="https://www.instagram.com/zuisyoudo0405/" target="_blank" rel="noopener">📷 瑞祥堂治療院</a>
+        <a class="sns-btn" href="https://www.facebook.com/people/%E7%91%9E%E7%A5%A5%E5%A0%82%E6%B2%BB%E7%99%82%E9%99%A2/100051837514206/" target="_blank" rel="noopener">📘 瑞祥堂治療院</a>
       </div>
     </div>
     <div>
@@ -3560,8 +3626,11 @@ function googleTranslateElementInit() {
         <li><a href="https://www.moa-inter.or.jp/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">MOAインターナショナル</a></li>
         <li><a href="https://moaagri.or.jp/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">MOA自然農法文化事業団</a></li>
         <li><a href="https://www.greenmarket.jp/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">グリーンマーケット オンラインショップ</a></li>
-        <li><a href="https://www.facebook.com/people/%E7%91%9E%E7%A5%A5%E5%A0%82%E6%B2%BB%E7%99%82%E9%99%A2/100051837514206/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">瑞祥堂治療院 Facebook</a></li>
-        <li><a href="https://www.instagram.com/zuisyoudo0405/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">瑞祥堂治療院 Instagram</a></li>
+        <li><a href="https://www.instagram.com/hiroshima_ryouin/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">広島療院 公式Instagram</a></li>
+        <li><a href="https://www.instagram.com/kanna_restaurant_/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">自然食レストラン かんな（Instagram）</a></li>
+        <li><a href="https://www.instagram.com/greenmarket.hiroshima/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">グリーンマーケット広島店（Instagram）</a></li>
+        <li><a href="https://www.instagram.com/zuisyoudo0405/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">瑞祥堂治療院（Instagram）</a></li>
+        <li><a href="https://www.facebook.com/people/%E7%91%9E%E7%A5%A5%E5%A0%82%E6%B2%BB%E7%99%82%E9%99%A2/100051837514206/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.85);text-decoration:none;">瑞祥堂治療院（Facebook）</a></li>
       </ul>
     </div>
     <div>
